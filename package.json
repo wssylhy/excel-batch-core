@@ -1,0 +1,23 @@
+{
+  "name": "excel-batch-core",
+  "version": "1.0.0",
+  "description": "纯前端 Excel 批量合并/按列拆分/xlsx-csv 格式互转核心库,浏览器与 Node 通用,本地处理数据不出设备",
+  "main": "exb-core.js",
+  "scripts": {
+    "test": "node test/smoke-test.js"
+  },
+  "keywords": [
+    "excel",
+    "xlsx",
+    "csv",
+    "merge",
+    "split",
+    "spreadsheet",
+    "browser",
+    "local-first"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
